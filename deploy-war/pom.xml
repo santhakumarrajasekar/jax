@@ -12,7 +12,7 @@
 	</parent>
 	<properties>
 		<!--Edit this prop -->
-		<tomcatLocation>${TOMCAT_LOCATION}</tomcatLocation>
+		<tomcatLocation>D:\Apps\apache-tomcat-9.0.19</tomcatLocation>
 	</properties>
 	<!-- 
 	Here you can configure the desired deployment technology like: chef, Puppet, Ansible... for traditional projects and Docker / Kubernetes for containerized technologies 
