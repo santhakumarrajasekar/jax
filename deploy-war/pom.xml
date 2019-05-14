@@ -31,7 +31,7 @@
 						<configuration>
 							<target name="Stop Tomcat">
 								<echo message="Stopping Tomcat server"/>
-								<exec executable="/bin/bash">
+								<exec executable="cmd">
 									<arg value="${tomcatLocation}/bin/shutdown.sh"/>
 								</exec>
 							</target>
@@ -59,7 +59,7 @@
 						<configuration>
 							<target name="Start Tomcat">
 								<echo message="Starting Tomcat server"/>
-								<exec executable="/bin/bash">
+								<exec executable="cmd">
 									<arg value="${tomcatLocation}/bin/startup.sh"/>
 								</exec>
 							</target>
